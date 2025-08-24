@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Maria Fernanda</title>
+</head>
+<body>
+<br><br><br><br><br>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStqTBK8Sp_4EbskvCL8erAsVGH76a2bpZqBw&s" alt="Maria Fernanda">
+  <p>Hi! I'm Maria, a Software Development student.</p>
+  <ul>
+    <li><a href="#">LinkedIn</a></li>
+    <li><a href="#">Creedly</a></li>
+    <li><a href="#">Portfolio</a></li>
+  </ul>
+</body>
+</html>
