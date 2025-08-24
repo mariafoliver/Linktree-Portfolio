@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Maria Fernanda</title>
+  <style>
+    body {
+      text-align: center;
+      background: #404040;
+      color: white;
+      font-family: helvetica;
+    }
+
+    p {
+      font-size: 22px;
+    }
+
+    img {
+      border-radius: 100px;
+      width: 200px;
+      height: auto;
+      transition: transform 0.3s ease, border 0.3s ease;
+      border: 3px solid transparent; /* borda inicial invisível */
+    }
+
+    img:hover {
+      transform: scale(1.1);        /* zoom */
+      border: 3px solid #FFCCFF;    /* borda rosa aparece */
+      cursor: pointer;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 30px auto 0 auto;
+      display: flex;
+      flex-direction: column;       /* coloca links em coluna */
+      gap: 15px;                    /* espaçamento entre links */
+      width: 200px;                 /* largura fixa para centralizar */
+    }
+
+    ul li {
+      background-color: #f8d7da;
+      border-radius: 15px;
+      padding: 10px 20px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    ul li a {
+      text-decoration: none;
+      color: #721c24;
+      font-weight: bold;
+      display: block;
+    }
+
+    ul li:hover {
+      background-color: #f1b0b7;
+    }
+
+    ul li:hover a {
+      color: white;
+    }
+
+  </style>
+</head>
+<body>
+<br><br><br><br><br>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStqTBK8Sp_4EbskvCL8erAsVGH76a2bpZqBw&s" alt="Maria Fernanda">
+  <p>Hi! I'm Maria, a Software Development student.</p>
+  <ul>
+    <li><a href="#">LinkedIn</a></li>
+    <li><a href="#">Creedly</a></li>
+    <li><a href="#">Portfolio</a></li>
+  </ul>
+</body>
+</html>
